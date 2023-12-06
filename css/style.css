@@ -1,0 +1,75 @@
+.navbar-brand img {
+    margin-right: 15px;
+
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.jumbotron1 {
+    background-image: url(../images/jumbo1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.jumbotron1 p {
+    font-weight: 600;
+    
+}
+
+.row {
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 5%;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.jumbotron2 {
+    background-image: url(../images/pexels-photo-440731.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.jumbotron2 .display-4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.jumbotron2 .lead {
+    font-weight: 700;
+}
+
+#carouselExampleControls img {
+
+    object-fit: contain;
+    max-height: 600px;
+}
+
+#carouselExampleControls {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.carousel-control-prev-icon::before,
+    .carousel-control-next-icon::before {
+        color: black; /* Change this to the desired color */
+    }
